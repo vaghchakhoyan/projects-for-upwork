@@ -1,0 +1,693 @@
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){	
+	.main_1{
+/*		border: 1px solid;*/
+		height: 401px;
+		position: relative;	
+	}	
+	.block1{
+/*		border: 1px solid;*/
+		width: 550px;
+		height: 400px;
+		position: absolute;
+		right: 0;
+		background-color: rgb(55, 50, 140, 1.0);
+	}
+	.block2{
+	/*	border: 1px solid red;*/
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		right: 200px;
+		top: 75px;
+		background-color: floralwhite;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: rgb(55, 50, 180, 1.0);
+	}
+	.block2 h1{
+		font-size: 30px;
+	}
+	.block3{
+	/*	border: 1px solid blue;*/
+		width: 550px;
+		height: 300px;
+		position: absolute;
+		background: url(girl.jpeg);
+		background-size: 100% 100%;
+		top: 50px;
+		left: 110px;
+	}
+	.text1 h1{
+		color: rgb(55,50,150);
+		margin: 20px 30px;
+		font-size: 35px;
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+	.main_2_top_text{
+/*		border: 1px solid;*/
+		width: 400px;
+		height: 210px;
+		position: absolute;
+		right: 1px;
+		top: 15px;
+		color: rgb(100, 50, 150, 1.0);
+		font-family: 'Nunito', sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.main_2_top_text h1{
+		font-size: 30px;
+	}
+	.girl2{
+	/*	border: 1px solid;*/
+		width: 280px;
+		height: 360px;
+		position: absolute;
+		top: 100px;
+		left: 380px;
+		background: url(girl2.webp);
+		background-size: 100% 100%;
+	}
+	.main_2_bottom_text{
+/*		border: 1px solid;*/
+		width: 200px ;
+		height: 200px;
+		position: absolute;
+		bottom: 10px;
+		right: 365px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.o_o{
+	/*	border: 1px solid;*/
+		width: 220px ;
+		height: 220px;
+		position: absolute;
+		border-radius: 50%;
+		left: 150px;
+		top: 25px;
+		background-color: rgb(120,50,180);
+	}
+	.girl4{
+	/*	border: 1px solid;*/
+		width: 420px;
+		height: 420px;
+		background: url(girl4.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+		position: absolute;
+		left: 200px;
+		top: 125px;
+		z-index: 1;
+	}
+	.div_for_main_3_text{
+	/*	border: 1px solid;*/
+		width: 450px;
+		height: 400px;
+		position: absolute;
+		right: 40px;
+		bottom: 30px;
+		background: lightpink;
+		display: flex;
+		align-items:flex-start;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.main_4_text1 h4{
+		margin: 15px 20px;
+		font-size: 15px;
+	}
+	.girl6{
+	/*	border: 1px solid;*/
+		width: 33%;
+		height: 599px;
+		position: absolute;
+		left: 338px;
+		background: url(girl6.webp);
+		background-size: 100% 100%;
+	}
+	
+} 
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+	.main_1{
+/*		border: 1px solid;*/
+		height: 600px;
+		position: relative;	
+	}	
+	.block1{
+		border: 1px solid;
+		width: 100%;
+		height: 600px;
+		position: absolute;
+		background-color: rgb(55, 50, 140, 1.0);
+	}
+	.block2{
+/*		border: 1px solid red;*/
+		width: 215px;
+		height: 215px;
+		position: absolute;
+		right: 20px;
+		top: 55px;
+		background-color: floralwhite;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: rgb(55, 50, 180, 1.0);
+		border-radius: 50%;
+	}
+	.block2 h1{
+		font-size: 25px;
+	}
+	.block3{
+	/*	border: 1px solid blue;*/
+		width: 100%;
+		height: 500px;
+		position: absolute;
+		background: url(girl.jpeg);
+		background-size: 100% 100%;
+		top: 50px;
+		left: 0px;
+	}
+	.text1 h1{
+		color: rgb(55,50,150);
+		margin: 20px 30px;
+		font-size: 30px;
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+	.text2{
+	/*	border: 1px solid;*/
+		height: 400px;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+	.text2 h4{
+		margin: 0px 0px 40px 0;
+		color: gray;
+		font-size: 20px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.purpule_div{
+	/*	border: 1px solid;*/
+		width: 350px;
+		height: 700px;
+		position: absolute;
+		left: 0px;
+		background-color: rgb(80, 50, 140);	
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+		flex-direction: column;
+		color: floralwhite;
+	}
+	.purpule_div p{
+		margin: 10px 10px 70px 10px;
+	}
+	.main_2_top_text{
+	/*	border: 1px solid;*/
+		width: 380px;
+		height: 210px;
+		position: absolute;
+		right: 15px;
+		top: 45px;
+		color: rgb(100, 50, 150, 1.0);
+		font-family: 'Nunito', sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.girl2{
+	/*	border: 1px solid;*/
+		width: 360px;
+		height: 360px;
+		position: absolute;
+		top: 320px;
+		left: 385px;
+		background: url(girl2.webp);
+		background-size: 100% 100%;
+	}
+	.girl3{
+	/*	border: 1px solid;*/
+		width: 230px;
+		height: 230px;
+		position: absolute;
+		top: 50px;
+		left:50px;
+		background: url(girl3.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+	.main_2_bottom_text{
+		display: none;
+	}
+	.o_o{
+	/*	border: 1px solid;*/
+		width: 220px ;
+		height: 220px;
+		position: absolute;
+		border-radius: 50%;
+		left: 190px;
+		top: 520px;
+		background-color: rgb(120,50,180);
+		z-index: 1;
+	}
+	.girl4{
+	/*	border: 1px solid;*/
+		width: 420px;
+		height: 420px;
+		background: url(girl4.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+		position: absolute;
+		left: 250px;
+		top: 325px;
+		z-index: 1;
+	}
+	.div_for_main_3_text{
+	/*	border: 1px solid;*/
+		width: 800px;
+		height: 400px;
+		position: absolute;
+		right: 1px;
+		top: 1px;
+		background: lightpink;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.main_4_text1 h4{
+		margin: 15px 20px;
+		font-size: 11px;
+	}
+	
+	.girl6{
+	/*	border: 1px solid;*/
+		width: 33%;
+		height: 599px;
+		position: absolute;
+		left: 253px;
+		background: url(girl6.webp);
+		background-size: 100% 100%;
+	}
+	.main_5_t2{
+	/*	border: 1px solid;*/
+		height: 350px;
+		font-family: 'Lato', sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 15px;
+	}
+	.main_5_t3{
+	/*	border: 1px solid;*/
+		height: 350px;
+		font-family: 'Lato', sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 15px;
+		flex-direction: column;
+	}
+	.tup_2 h1{
+		font-size: 25px;
+		margin: 15px 60px;
+	}
+	.tup_3{
+		font-size: 16px;
+	}
+}
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+/*1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1*/
+@media (min-width:320px) and (max-width:767px){
+	.main_1{
+/*		border: 1px solid wheat;*/
+		height: 550px;
+		position: relative;	
+	}	
+	.block1{
+		border: 1px solid;
+		width: 100%;
+		height: 550px;
+		position: absolute;
+		background-color: rgb(55, 50, 140, 1.0);
+	}
+	.block2{
+/*		border: 1px solid red;*/
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		right: 10px;
+		top: 300px;
+		background-color: floralwhite;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: rgb(55, 50, 180, 1.0);
+		border-radius: 50%;
+	}
+	.block2 h1{
+		font-size: 20px;
+	}
+	.block3{
+	/*	border: 1px solid blue;*/
+		width: 300px;
+		height: 350px;
+		position: absolute;
+		background: url(girl.jpeg);
+		background-size: 100% 100%;
+		top: 50px;
+		left: 10px;
+	}
+	.text1{
+/*		border: 1px solid;*/
+		height: 250px;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.text1 h1{
+		color: rgb(55,50,150);
+		margin: 20px 30px;
+		font-size: 20px;
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+	.text2{
+/*		border: 1px solid;*/
+		height: 250px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.text2 h4{
+		color: gray;
+		font-size: 20px;
+		font-family: 'Nunito', sans-serif;
+	}
+	.main_2_top_text{
+/*		border: 1px solid;*/
+		width: 100%;
+		height: 210px;
+		position: absolute;
+		top: 15px;
+		left: 0px;
+		color: floralwhite;
+		font-family: 'Nunito', sans-serif;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.main_2_top_text h1{
+		font-size: 20px;
+	}
+	.purpule_div{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 700px;
+		position: absolute;
+		left: 0px;
+		background-color: rgb(80, 50, 140);	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: floralwhite;
+	}
+	.purpule_div p{
+		margin: 0 10px;
+		font-size: 10px;
+	}
+	.girl2{
+	/*	border: 1px solid;*/
+		width: 140px;
+		height: 140px;
+		position: absolute;
+		top: 450px;
+		left: 10px;
+		background: url(girl2.webp);
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+	.girl3{
+	/*	border: 1px solid;*/
+		width: 140px;
+		height: 140px;
+		position: absolute;
+		top: 545px;
+		left: 150px;
+		background: url(girl3.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+	.main_2_bottom_text{
+		display: none;
+	}
+	.o_o{
+	/*	border: 1px solid;*/
+		width: 200px ;
+		height: 200px;
+		position: absolute;
+		border-radius: 50%;
+		left: 2px;
+		top: 25px;
+		background-color: rgb(120,50,180);
+		z-index: 1;
+	}
+	.girl4{
+	/*	border: 1px solid;*/
+		width: 220px;
+		height: 220px;
+		background: url(girl4.jpeg);
+		background-size: 100% 100%;
+		border-radius: 50%;
+		position: absolute;
+		left: 70px;
+		top: 525px;
+		z-index: 1;
+	}
+	.div_for_main_3_text{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 750px;
+		position: absolute;
+		right: 1px;
+		bottom: 0px;
+		background: lightpink;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.div_for_main_3_text h2, button{
+		margin: 10px 100px;
+	}
+	.div_for_main_3_text button{
+		padding: 5px 30px;
+		border-radius: 10px;
+		border: 1px solid lightpink;
+	}
+	.div_for_main_3_text p{
+		font-size: 11px;
+		margin: 1px 20px;
+	}
+	.div_for_main_3_text h2{
+		font-size: 25px;
+	}
+	.girl5{
+		display: none;
+	}
+	.main_4_text1{
+	/*	border: 1px solid blueviolet;*/
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		top: 150px;
+		right: 1px;
+		background: lightpink;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column ;
+		z-index: 1;	
+		border-radius: 50%;
+	}
+	.main_4_text1 h4{
+		margin: 0 20px;
+		font-size:7px;
+	}
+	.main_4_text1 div{
+		font-size: 20px;
+	/*	border: 1px solid;*/
+		width: 100%;
+		display: flex;
+	}
+	.main_4_text1 div i{
+		margin: 10px 21px;
+		font-size: 9px;
+	}
+	.girl6{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 599px;
+		position: absolute;
+		left: 0px;
+		background: url(girl6.webp);
+		background-size: 100% 100%;
+	}
+	.main_4_text2{
+	/*	border: 1px solid;*/
+		width: 125px;
+		height: 125px;
+		position: absolute;
+		right: 10px;
+		top:450px;
+		background: rgb(20, 20, 20, 1.0);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: floralwhite;
+		border-radius: 50%;
+		z-index: 1;
+	}
+	.main_4_text2 i{
+		font-size: 20px;
+	}
+	.main_4_text2 h1{
+		font-size: 10px;
+	}
+	.girl7{
+	/*	border: 1px solid;*/
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		right: 0px;
+		bottom: 1px;
+		background: url(girl7.jpeg);
+		background-size: 100% 100%;
+	}
+	.main_6_position{
+	/*	border: 1px solid;*/
+		height: 1000px;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		z-index: 1;
+		margin: 25px 0;
+		background: floralwhite;
+	}
+	.tup_1{
+/*		border: 1px solid;*/
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.div{
+	/*	border: 1px solid;*/
+		width: 90%;
+		height: 30px;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px 50px;
+	}
+	.div i{
+		margin: 10px 10px;
+	}
+	.tup_1 h1{
+		font-size: 50px;
+		margin: 0 50px;
+	}
+	.tup_2{
+/*		border: 1px solid;*/
+		width: 100%;
+		height: 250px;
+		position: absolute;
+	 	top: 250px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.tup_2 h1{
+		font-size: 20px;
+		margin: 15px 60px;
+	}
+	.girl8{
+/*		border: 1px solid;*/
+		width:100%;
+		height:250px ;
+		position: absolute;
+		right: 0px;
+		top: 500px;
+		background: url(girl8.jpeg);
+		background-size: 100% 100%;
+		padding: 1px;
+	}
+	.tup_3{
+/*		border: 1px solid;*/
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.main_end{
+	/*	border: 1px solid;*/
+		height: 400px;
+		margin: 500px 0 0 0;
+		padding: 0;
+	}
+	.logo_text_icon{
+/*		border: 1px solid;*/
+		height: fit-content;
+		padding: 0;
+		background: rgb(75, 55, 185, 1.0);
+		margin: 770px 0 0 0;
+		position: relative;
+		z-index: 1;
+	}
+}

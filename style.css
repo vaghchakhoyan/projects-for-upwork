@@ -1,0 +1,536 @@
+body{
+	background: white;
+}
+.heder{
+/*	border: 1px solid;*/
+	height: fit-content;
+	background: floralwhite;
+}
+.logo_area{
+/*	border: 1px solid;*/
+	height: 80px;
+}
+.logo_area h2{
+	margin: 20px 30px;
+}
+.icon_3_line{
+/*	border: 1px solid;*/
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.icon_3_line i{
+	margin: 0 70px;
+	font-size: 30px;
+}
+.main_heder{
+/*	border: 1px solid;*/
+	height: fit-content;
+}
+.row{
+	padding: 0;
+	margin: 0;
+}
+.main_1{
+/*	border: 1px solid;*/
+	height: 600px;
+	position: relative;	
+	background: floralwhite;
+}	
+.block1{
+	border: 1px solid;
+	width: 700px;
+	height: 600px;
+	position: absolute;
+	right: 0;
+	background-color: rgb(70, 50, 140, 1.0);
+}
+.block2{
+/*	border: 1px solid red;*/
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	right: 250px;
+	top: 100px;
+	background-color: floralwhite;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: rgb(55, 50, 180, 1.0);
+}
+.block2 h1{
+	font-size: 50px;
+}
+.block3{
+/*	border: 1px solid blue;*/
+	width: 750px;
+	height: 500px;
+	position: absolute;
+	background: url(girl.jpeg);
+	background-size: 100% 100%;
+	top: 50px;
+	left: 150px;
+}
+.main_1_text{
+/*	border: 1px solid;*/
+	height: fit-content;
+	background: floralwhite;
+}
+.text1{
+/*	border: 1px solid;*/
+	height: 300px;	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.text1 h1{
+	color: rgb(55,50,150);
+	margin: 20px 30px;
+	font-size: 50px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.text2{
+/*	border: 1px solid;*/
+	height: 400px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+.text2 h4{
+	margin: 0px 0px 40px 0;
+	color: gray;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+.main_2{
+/*	border: 1px solid;*/
+	height: fit-content;
+	background: floralwhite;
+}
+.main_2_position{
+/*	border: 1px solid;*/
+	height: 700px;
+	position: relative;
+}
+.main_2_top_text{
+/*	border: 1px solid;*/
+	width: 500px;
+	height: 210px;
+	position: absolute;
+	right: 45px;
+	top: 45px;
+	color: rgb(100, 50, 150, 1.0);
+	font-family: 'Nunito', sans-serif;
+}
+.purpule_div{
+/*	border: 1px solid;*/
+	width: 350px;
+	height: 700px;
+	position: absolute;
+	left: 0px;
+	background-color: rgb(80, 50, 140);	
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	color: floralwhite;
+}
+.purpule_div p{
+	margin: 0 10px;
+}
+.purpule_div h3{
+	margin: 0 10px;
+}
+.line{
+/*	border: 1px solid;*/
+	width: 100px;
+	height: 10px;
+	margin: 20px;
+	background-color: floralwhite;
+}
+.girl2{
+/*	border: 1px solid;*/
+	width: 280px;
+	height: 360px;
+	position: absolute;
+	top: 160px;
+	left: 410px;
+	background: url(girl2.webp);
+	background-size: 100% 100%;
+}
+.girl3{
+/*	border: 1px solid;*/
+	width: 290px;
+	height: 380px;
+	position: absolute;
+	top: 310px;
+	left: 720px;
+	background: url(girl3.jpeg);
+	background-size: 100% 100%;
+}
+.main_2_bottom_text{
+/*	border: 1px solid;*/
+	width: 200px ;
+	height: 300px;
+	position: absolute;
+	bottom: 10px;
+	right: 100px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.line2{
+/*	border: 1px solid;*/
+	width: 100px;
+	height: 10px;
+	margin: 10px;
+	background-color: rgb(120, 80, 180, 1.0);
+}
+.main_2_bottom_text h3{
+	margin: 10px;
+}
+.main_2_bottom_text p{
+	margin: 10px;
+}
+.main_3{
+/*	border: 1px solid;*/
+	height: fit-content;
+	background: floralwhite;
+}
+.main_3_position{
+/*	border: 1px  csolid;*/
+	height: 750px;
+	position: relative;
+}
+.o_o{
+/*	border: 1px solid;*/
+	width: 220px ;
+	height: 220px;
+	position: absolute;
+	border-radius: 50%;
+	left: 250px;
+	top: 25px;
+	background-color: rgb(120,50,180);
+}
+.girl4{
+/*	border: 1px solid;*/
+	width: 420px;
+	height: 420px;
+	background: url(girl4.jpeg);
+	background-size: 100% 100%;
+	border-radius: 50%;
+	position: absolute;
+	left: 300px;
+	top: 125px;
+	z-index: 1;
+}
+.div_for_main_3_text{
+/*	border: 1px solid;*/
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	right: 300px;
+	bottom: 30px;
+	background: lightpink;
+	display: flex;
+	align-items:flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.div_for_main_3_text p, h2, button{
+	margin: 10px 100px;
+}
+.div_for_main_3_text button{
+	padding: 5px 30px;
+	border-radius: 10px;
+	border: 1px solid lightpink;
+}
+.main_4{
+/*	border: 1px solid;*/
+	height: fit-content;
+}
+.main_4_position{
+/*	border: 1px solid;*/
+	height: 600px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.girl5{
+/*	border: 1px solid red; */
+	width: 33%;
+	height: 300px;
+	position: absolute;
+	background: url(girl5.jpeg);
+	background-size: 105% 100%;
+}
+.main_4_text1{
+/*	border: 1px solid blueviolet;*/
+	width: 33%;
+	height: 300px;
+	position: absolute;
+	bottom: 0px;
+	background: lightpink;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column ;
+}
+.main_4_text1 h4{
+	margin: 0 20px;
+}
+.main_4_text1 div{
+	font-size: 20px;
+/*	border: 1px solid;*/
+	width: 100%;
+}
+.main_4_text1 div i{
+	margin: 0 20px;
+}
+.girl6{
+/*	border: 1px solid;*/
+	width: 33%;
+	height: 599px;
+	position: absolute;
+	left: 474px;
+	background: url(girl6.webp);
+	background-size: 100% 100%;
+}
+.main_4_text2{
+/*	border: 1px solid;*/
+	width: 34.1%;
+	height: 299px;
+	position: absolute;
+	right: 0;
+	background: rgb(20, 20, 20, 1.0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: floralwhite;
+}
+.main_4_text2 i{
+	font-size: 50px;
+}
+.girl7{
+/*	border: 1px solid;*/
+	width: 34.1%;
+	height: 300px;
+	position: absolute;
+	right: 0;
+	bottom: 1px;
+	background: url(girl7.jpeg);
+	background-size: 100% 100%;
+}
+.main_5{
+/*	border: 1px solid;*/
+	height: fit-content;
+}
+.main_5_t1{
+/*	border: 1px solid;*/
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: purple;
+}
+.main_5_t2{
+/*	border: 1px solid;*/
+	height: 350px;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+.main_5_t3{
+/*	border: 1px solid;*/
+	height: 350px;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	flex-direction: column;
+}
+.main_5_t3 button{
+	background: lightpink;
+	color: floralwhite;
+	border: 1px solid;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.main_5_t3 button:hover{
+	background: rgb(80, 50, 180, 1.0);
+}
+.z-index{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 540px;
+	background: lightpink;
+}
+.main6{
+/*	border: 1px solid;*/
+	height: fit-content;
+}
+.main_6_position{
+/*	border: 1px solid;*/
+	height: 600px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	margin: 25px 0;
+	background: floralwhite;
+}
+.tup_1{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 300px;
+	position: absolute;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.div{
+/*	border: 1px solid;*/
+	width: 90%;
+	height: 30px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 10px 50px;
+}
+.div i{
+	margin: 10px 10px;
+}
+.tup_1 h1{
+	font-size: 50px;
+	margin: 0 50px;
+}
+.line_6{
+/*	border: 1px solid;*/
+	width: 70%;
+	height: 20px;
+	background: lightpink;
+	margin: 10px 56px;
+}
+.tup_2{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 300px;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.tup_2 h1{
+	font-size: 35px;
+	margin: 15px 60px;
+}
+.girl8{
+/*	border: 1px solid;*/
+	width: 45%;
+	height:280px ;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: url(girl8.jpeg);
+	background-size: 100% 100%;
+	padding: 1px;
+}
+.tup_3{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 300px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.main_end{
+/*	border: 1px solid;*/
+	height: 400px;
+	margin: 100px 0 0 0;
+	padding: 0;
+}
+.end1{
+/*	border: 1px solid;*/
+	height: 390px;
+	background: url(end1.jpeg);
+	background-size: 100% 100%;
+}
+.end2{
+/*	border: 1px solid;*/
+	height: 390px;
+	background: url(girl9.jpeg);
+	background-size: 100% 100%;
+}
+.end3{
+/*	border: 1px solid;*/
+	height: 390px;
+	background: url(end10.jpeg);
+	background-size: 100% 100%;
+}
+.logo_text_icon{
+	border: 1px solid;
+	height: fit-content;
+	padding: 0;
+	background: rgb(75, 55, 185, 1.0);
+}
+.logo{
+/*	border: 1px solid;*/
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	color: floralwhite;
+}
+.text{
+/*	border: 1px solid;*/
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	color: floralwhite;
+	flex-direction: column;
+}
+.icon{
+/*	border: 1px solid;*/
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 25px;
+}
+.icon i:nth-child(1){
+	color: darkblue;
+}
+.icon i:nth-child(2){
+	color: red;
+}
+.icon i:nth-child(3){
+	color: lightblue;
+}
+.icon i:nth-child(4){
+	color: orange;
+}
+
+
